@@ -1,0 +1,35 @@
+# wrangler.toml
+name = "finance-qa"
+type = "webpack"
+account_id = "your-account-id"
+zone_id = "your-zone-id"
+workers_dev = true
+
+[env.production]
+workers_dev = false
+route = "finance-qa.yourdomain.com/*"
+zone_id = "your-zone-id"
+
+[site]
+bucket = "./build"
+entry-point = "workers-site"
+
+[env.production.vars]
+ENVIRONMENT = "production"
+API_BASE_URL = "https://api.finance-qa.yourdomain.com"
+
+[[env.production.d1_databases]]
+binding = "DB"
+database_name = "finance-qa-prod"
+database_id = "your-database-id"
+
+[triggers]
+crons = ["*/30 * * * *"]
+
+[miniflare]
+kv_persist = true
+cache_persist = true
+
+[[r2_buckets]]
+binding = 'STORAGE'
+bucket_name = 'finance-qa-storage'
