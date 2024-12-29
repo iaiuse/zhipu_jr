@@ -1,0 +1,313 @@
+{
+  "tables": {
+    "AStockBasicInfoDB.LC_StockArchives": {
+      "chinese_name": "上市公司基本资料",
+      "description": "收录上市公司的基本情况，包括：联系方式、注册信息、中介机构、行业和产品、公司证券品种及背景资料等"
+    },
+    "AStockIndustryDB.LC_ExgIndustry": {
+      "chinese_name": "公司行业划分表",
+      "description": "收录上市公司在证监会行业划分、中信行业划分、GICS行业划分、申万行业划分、中信建投、申银(BOCI)等"
+    }
+    ,
+    "AStockBasicInfoDB.LC_NameChange": {
+      "chinese_name": "公司名称更改状况",
+      "description": "收录公司名称历次变更情况，包括：中英文名称、中英文缩写名称、更改日期等内容"
+    },
+    "AStockBasicInfoDB.LC_Business": {
+      "chinese_name": "公司经营范围与行业变更", 
+      "description": "收录上市公司、发债公司的经营范围（包括主营和兼营）以及涉足行业情况"
+    },
+    "AStockIndustryDB.LC_ExgIndChange": {
+      "chinese_name": "公司行业变更表",
+      "description": "记录上市公司从上市至今，由于主营业务变更导致的所属行业变化情况，采用同一行业分类标准，对其历史变更进行人为追溯"
+    },
+    "AStockIndustryDB.LC_IndustryValuation": {
+      "chinese_name": "行业估值指标",
+      "description": "记录不同行业标准下的的衍生指标，包括行业静态市盈率、滚动市盈率、市净率、股息率等指标"
+    },
+    "AStockIndustryDB.LC_IndFinIndicators": {
+      "chinese_name": "行业财务指标表",
+      "description": "存储行业衍生指标相关数据，反映不同行业分类标准下，各行业的成长能力、偿债能力、盈利能力和现金获取能力等"
+    },
+    "AStockIndustryDB.LC_COConcept": {
+      "chinese_name": "概念所属公司表",
+      "description": "记录A股上市公司所属概念信息"
+    },
+    "AStockIndustryDB.LC_ConceptList": {
+      "chinese_name": "概念板块常量表",
+      "description": "记录A股市场中热点概念的相关信息"
+    },
+    "AStockOperationsDB.LC_SuppCustDetail": {
+      "chinese_name": "公司供应商与客户",
+      "description": "收录A股上市公司的主要供应商、客户清单，以及交易标的、交易金额等信息"
+    },
+    "AStockShareholderDB.LC_SHTypeClassifi": {
+      "chinese_name": "股东类型分类表",
+      "description": "记录聚源股东类型分类数据"
+    },
+    "AStockShareholderDB.LC_MainSHListNew": {
+      "chinese_name": "股东名单(新)",
+      "description": "收录公司主要股东构成及持股数量比例、持股性质等明细资料，包括发行前和上市后的历次变动记录"
+    },
+    "AStockShareholderDB.LC_SHNumber": {
+      "chinese_name": "股东户数",
+      "description": "反映公司全体股东、A股股东、B股东、H股东、CDR股东的持股情况及其历史变动情况等"
+    },
+    "AStockShareholderDB.LC_Mshareholder": {
+      "chinese_name": "大股东介绍",
+      "description": "收录上市公司及发债企业大股东的基本资料，包括直接持股和间接持股，以及持股比例、背景介绍等内容"
+    },
+    "AStockShareholderDB.LC_ActualController": {
+      "chinese_name": "公司实际控制人",
+      "description": "收录根据上市公司在招投说明书、定期报告、及临时公告中披露的实际控制人结构图判断的上市公司实际控制人信息"
+    },
+    "AStockShareholderDB.LC_ShareStru": {
+      "chinese_name": "公司股本结构变动",
+      "description": "收录上市公司股本结构历史变动情况"
+    },
+    "AStockShareholderDB.LC_StockHoldingSt": {
+      "chinese_name": "股东持股统计",
+      "description": "收录报告期末，各类机构投资者对每只股票的持仓情况，以及前十大（无限售条件）股东合计持股情况等"
+    },
+    "AStockShareholderDB.LC_ShareTransfer": {
+      "chinese_name": "股东股权变动",
+      "description": "收录公司股东股权转让、二级市场买卖、股权拍卖、大宗交易、股东重组等引起股东股权变动方面的明细资料"
+    },
+    "AStockShareholderDB.LC_ShareFP": {
+      "chinese_name": "股东股权冻结和质押",
+      "description": "收录股东股权被冻结和质押及进展情况，包括被冻结质押股东、被接受股权质押方、涉及股数以及冻结质押期限起始和截止日等内容"
+    },
+    "AStockShareholderDB.LC_ShareFPSta": {
+      "chinese_name": "股东股权冻结和质押统计",
+      "description": "收录股东股权的质押冻结统计数据，包括股东股权累计冻结质押股数、累计占冻结质押方持股数比例和累计占总股本比例等情况"
+    },
+    "AStockShareholderDB.LC_Buyback": {
+      "chinese_name": "股份回购",
+      "description": "介绍上市公司(包含科创板)发生股份回购的相关方案信息，包括股份类别、首次信息发布日期、回购协议签署日等内容"
+    },
+    "AStockShareholderDB.LC_BuybackAttach": {
+      "chinese_name": "股份回购关联表",
+      "description": "补充上市公司(包含科创板)发生股份回购的相关信息，包括本次回购数量、累计回购数量、本次回购资金和累计回购数量等内容"
+    },
+    "AStockShareholderDB.LC_LegalDistribution": {
+      "chinese_name": "法人配售与战略投资者",
+      "description": "收录公司首次发行、增发新股、发行可转债过程中采用网下配售方式过程中，获得配售的企业、基金明细"
+    },
+    "AStockShareholderDB.LC_NationalStockHoldSt": {
+      "chinese_name": "A股国家队持股统计",
+      "description": "记录股市国家队成员持有A股的相关信息，包含：持有A股总数，占总股本比例，持有A股数量增减，持有A股数量增减幅度等"
+    },
+    "AStockShareholderDB.CS_ForeignHoldingSt": {
+      "chinese_name": "外资持股统计",
+      "description": "境外投资者持股统计，包含持股总数、持股比例，境外投资者指QFII/RQFII/深股通/全球存托凭证跨境转换机构/全球存托凭证存托人"
+    },
+    "AStockFinanceDB.LC_AShareSeasonedNewIssue": {
+      "chinese_name": "A股增发",
+      "description": "收录A股增发A股、B股增发A股、H股增发A股等的明细情况，包括历次增发预案、进程日期、预案有效期、发行属性、发行价区间、发行量区间、发行日期、上网发行情况、网下配售申购情况和募集资金与费用等内容"
+    },
+    "AStockFinanceDB.LC_ASharePlacement": {
+      "chinese_name": "A股配股", 
+      "description": "收录A股历次配股预案及实施进展明细，包括预案有效期、配股价格区间、配股说明书、募集资金和配股交款日等内容"
+    },
+    "AStockFinanceDB.LC_Dividend": {
+      "chinese_name": "公司分红",
+      "description": "该表包括上市公司历次分红预案及实施进展，以及下年分配次数、方式等，以分红事件为维度，一次分红做一条记录"
+    },
+    "AStockFinanceDB.LC_CapitalInvest": {
+      "chinese_name": "资金投向说明",
+      "description": "公司自有资金、通过发行新股、增发新股、配股、发行可转债、发行企业债等方式所得募集资金的项目投资情况以及运用进展和改投状况"
+    },
+    "AStockMarketQuotesDB.CS_StockCapFlowIndex": {
+      "chinese_name": "境内股票交易资金流向指标",
+      "description": "收录深沪京交易所正常交易的股票在每个交易日基于不同成交金额区间及成交时间区间主动及含主动被动交易的累计流入流出金额、量等信息衍生计算的统计类指标"
+    },
+    "AStockMarketQuotesDB.CS_TurnoverVolTecIndex": {
+      "chinese_name": "境内股票成交量技术指标",
+      "description": "收录境内股票上市之日起基于日、周、月、季、半年、年K线行情衍生计算的成交量技术指标"
+    },
+    "AStockMarketQuotesDB.CS_StockPatterns": {
+      "chinese_name": "股票技术形态表",
+      "description": "收录股票从最近一个交易日往前追溯一段时期的行情表现和技术形态表现，包括近1周、近1月、近3月、近半年、近1年、上市以来的表现情况，以及连涨跌天数、连续放量缩量天数、向上向下有效突破均线、N天M板、均线多空头排列看涨看跌等技术形态指标"
+    },
+    "AStockMarketQuotesDB.QT_DailyQuote": {
+      "chinese_name": "日行情表",
+      "description": "收录股票、债券（不包含银行间交易的债券）、基金、指数每个交易日收盘行情数据，包括昨收盘、今开盘、最高价、最低价、收盘价、成交量、成交金额、成交笔数等行情指标"
+    },
+    "AStockMarketQuotesDB.QT_StockPerformance": {
+      "chinese_name": "股票行情表现(新)",
+      "description": "收录股票从最近一个交易日往前追溯一段时期的行情表现信息，包括近1周、1周以来、近1月、1月以来、近3月、近半年、近1年、今年以来、上市以来的表现情况，以及β、α、波动率、夏普比率等风险指标"
+    },
+    "AStockMarketQuotesDB.LC_SuspendResumption": {
+      "chinese_name": "停牌复牌表",
+      "description": "收录上市公司/基金/债券停牌复牌信息，如停牌日期、停牌时间、停牌原因、停牌事项说明、停牌期限、复牌日期、复牌时间、复牌事项说明等，包括盘中临时停牌"
+    },
+    "AStockFinanceDB.LC_BalanceSheetAll": {
+      "chinese_name": "资产负债表_新会计准则",
+      "description": "反映企业依据2007年新会计准则在年报、中报、季报中披露的资产负债表数据；并依据新旧会计准则的科目对应关系，收录主要科目的历史对应数据"
+    },
+    "AStockFinanceDB.LC_IncomeStatementAll": {
+      "chinese_name": "利润分配表_新会计准则",
+      "description": "反映企业依据2007年新会计准则在在年报、中报、季报中披露的利润表数据；并依据新旧会计准则的科目对应关系，收录了主要科目的历史对应数据"
+    },
+    "AStockFinanceDB.LC_CashFlowStatementAll": {
+      "chinese_name": "现金流量表_新会计准则",
+      "description": "反映企业依据2007年新会计准则在年报、中报、季报中披露的现金流量表数据；并依据新旧会计准则的科目对应关系，收录了主要科目的历史对应数据"
+    },
+    "AStockFinanceDB.LC_IntAssetsDetail": {
+      "chinese_name": "公司研发投入与产出",
+      "description": "收录上市公司研发投入相关数据，主要包括研发费用投入总额、占比，研发人员构成、占比等信息"
+    },
+    "AStockFinanceDB.LC_MainOperIncome": {
+      "chinese_name": "公司主营业务构成",
+      "description": "收录公司主营业务的收入来源、成本构成；主营业务收入、成本和利润与上年同期的对比较"
+    },
+    "AStockFinanceDB.LC_OperatingStatus": {
+      "chinese_name": "公司经营情况述评",
+      "description": "收录公司管理层对季度、半年度、年度经营情况的自我评价，以及其后期发展计划和预测，本表涵盖了公司招股以来的历次纪录"
+    },
+    "AStockFinanceDB.LC_AuditOpinion": {
+      "chinese_name": "公司历年审计意见",
+      "description": "收录中介机构对公司季度、半年度、年度经营情况的评价，区分审计单位、审计意见类型，本表涵盖了公司招股以来的历次纪录"
+    },
+    "AStockOperationsDB.LC_Staff": {
+      "chinese_name": "公司职工构成",
+      "description": "从技术职称、专业、文化程度、年龄等几个方面介绍公司职工构成情况"
+    },
+    "AStockOperationsDB.LC_RewardStat": {
+      "chinese_name": "公司管理层报酬统计",
+      "description": "按报告期统计管理层的报酬情况，包括报酬总额、前三名董事报酬、前三名高管报酬、报酬区间统计分析等"
+    },
+    "AStockEventsDB.LC_Warrant": {
+      "chinese_name": "公司担保明细",
+      "description": "收录上市公司公告中披露的担保等重大事项，包括时间内容、最新进展、事件主体/交易对象名称、企业编号、与上市公司关联关系、担保原因等指标"
+    },
+    "AStockEventsDB.LC_Credit": {
+      "chinese_name": "公司借贷明细",
+      "description": "收录上市公司公告中披露的公司借贷等重大事项描述，包括时间内容、时间主体、交易对象名称、借贷金额、还款金额、借贷利率、借贷期限等指标"
+    },
+    "AStockEventsDB.LC_SuitArbitration": {
+      "chinese_name": "公司诉讼仲裁明细",
+      "description": "公司诉讼仲裁等重大事项，包括事件主体/交易对象名称、企业编号、与上市公司关联关系、诉讼仲裁金额、原告及与上市公司关联关系、被告及与上市公司关联关系、仲裁状态等指标"
+    },
+    "AStockEventsDB.LC_EntrustInv": {
+      "chinese_name": "重大事项委托理财",
+      "description": "公司委托贷款等重大事项，包括事件主体/交易对象名称、企业编号、与上市公司关联关系、涉及金额、委托期限、委托起始日、委托截止日等指标"
+    },
+    "AStockEventsDB.LC_Regroup": {
+      "chinese_name": "公司资产重组明细",
+      "description": "公司资产重组，如资产出售与转让、资产置换、债权债务重组等重大事项描述说明"
+    },
+    "AStockEventsDB.LC_MajorContract": {
+      "chinese_name": "公司重大经营合同明细",
+      "description": "本表存放公司重大经营合同的事项，包括事件主体/交易对象名称、企业编号、与上市公司关联关系、合同标的、合同获得方式、涉及金额、合同起始日、合同截止日、合同期限等指标"
+    },
+    "AStockEventsDB.LC_InvestorRa": {
+      "chinese_name": "投资者关系活动",
+      "description": "收录各调研机构对上市公司调研的详情，包括调研日期、参与单位、调研人员、调研主要内容等信息"
+    },
+    "AStockEventsDB.LC_InvestorDetail": {
+      "chinese_name": "投资者关系活动调研明细",
+      "description": "收录参与上市公司调研活动的调研机构明细数据，包括调研单位、调研人员等指标"
+    },
+    "AStockShareholderDB.LC_ESOP": {
+      "chinese_name": "员工持股计划",
+      "description": "主要记录员工持股计划当期的情况：包括相关日期、事件进程、事件说明、资金来源、资金总额、股票来源、股票规模、实施是否分期、存续期、锁定期等一些情况"
+    },
+    "AStockShareholderDB.LC_ESOPSummary": {
+      "chinese_name": "员工持股计划概况",
+      "description": "本表主要记录员工持股计划总体情况：包括相关日期、事件进程、事件说明、资金来源、资金总额、股票来源、股票规模等一些情况。对于一些分期实施的员工持股计划，本表记录总体计划的情况"
+    },
+    "AStockShareholderDB.LC_TransferPlan": {
+      "chinese_name": "股东增减持计划表",
+      "description": "收录上市公司(包含科创板)股东增持计划、减持计划、被动减持计划、不减持类别指标"
+    },
+    "AStockShareholderDB.LC_SMAttendInfo": {
+      "chinese_name": "股东大会出席信息",
+      "description": "收录股东大会召开时间，地点，类别；投票方式；见证律师事务所及经办律师；全体股东出席情况；非流通股东出席情况；流通股东出席情况"
+    },
+    "HKStockDB.HK_EmployeeChange": {
+      "chinese_name": "港股公司员工数量变动表",
+      "description": "记录港股公司员工数量的变动历史记录数据，包括信息发布日期、信息来源、生效日期、变更前员工数量、变更后员工数量等"
+    },
+    "HKStockDB.HK_StockArchives": {
+      "chinese_name": "港股公司概况",
+      "description": "收录港股上市公司的基础信息，包括名称、成立日期、注册地点、注册资本、公司业务、所属行业分类、主席、公司秘书、联系方式等信息"
+    },
+    "HKStockDB.CS_HKStockPerformance": {
+      "chinese_name": "港股行情表现",
+      "description": "收录股票从最近一个交易日往前追溯一段时期的行情表现信息，包括近1周、1周以来、近1月、1月以来、近3月、近半年、近1年、今年以来、上市以来的表现情况，本表包含停牌数据"
+    },
+    "USStockDB.US_CompanyInfo": {
+      "chinese_name": "美股公司概况",
+      "description": "本表主要收录美国市场上市公司的基本情况，包括公司名称、地址、电话、所属国家、公司简介等信息"
+    },
+    "USStockDB.US_DailyQuote": {
+      "chinese_name": "美股日行情",
+      "description": "本表收录美国市场证券的日收盘行情"
+    },
+    "PublicFundDB.MF_FundArchives": {
+      "chinese_name": "公募基金概况",
+      "description": "本表记录了基金基本情况，包括基金规模、成立日期、投资类型、管理人、托管人、存续期、历史简介等"
+    },
+    "PublicFundDB.MF_FundProdName": {
+      "chinese_name": "公募基金产品名称",
+      "description": "本表记录基金的交易所披露简称、集中申购简称、ETF申购赎回简称等基金相关的名称类信息"
+    },
+    "PublicFundDB.MF_InvestAdvisorOutline": {
+      "chinese_name": "公募基金管理人概况",
+      "description": "本表记录了基金管理人的基本情况介绍，包括成立日期、注册资本、法人代表、联系方式、背景简介等"
+    },
+    "PublicFundDB.MF_Dividend": {
+      "chinese_name": "公募基金分红",
+      "description": "本表记录基金单次分红信息，包括分红比例、登记日、除息日等信息，以及聚源根据相关数据计算的累计分红金额、累计分红次数等数据"
+    },
+    "CreditDB.LC_ViolatiParty": {
+      "chinese_name": "违规当事人处罚",
+      "description": "该表以事件+当事人+处罚为维度，记录单个事件下单个当事人的每一个处罚，包括当事人及其性质、当事人编码、开始日期、截止日期、违规类型、关联关系、关联上市公司、处罚机构编码、处罚机构、涉及金额、处罚说明等指标"
+    },
+    "IndexDB.LC_IndexBasicInfo": {
+      "chinese_name": "指数基本情况",
+      "description": "收录了市场上主要指数的基本情况，包括指数类别、成份证券类别、发布机构、发布日期、基期基点、指数发布的币种等信息"
+    },
+    "IndexDB.LC_IndexComponent": {
+      "chinese_name": "指数成份",
+      "description": "收录了市场上主要指数的成份证券构成情况，包括成份证券的市场代码、入选日期、删除日期以及成份标志等信息"
+    },
+    "InstitutionDB.LC_InstiArchive": {
+      "chinese_name": "机构基本资料",
+      "description": "收录市场上重要机构的基本资料情况，如证券公司、信托公司、保险公司等；包含机构名称、机构信息、联系方式、机构背景等信息"
+    },
+    "ConstantDB.SecuMain": {
+      "chinese_name": "证券主表",
+      "description": "本表收录单个证券品种（股票、基金、债券）的代码、简称、上市交易所等基础信息"
+    },
+    "ConstantDB.HK_SecuMain": {
+      "chinese_name": "港股证券主表",
+      "description": "本表收录港股单个证券品种的简称、上市交易所等基础信息"
+    },
+    "ConstantDB.CT_SystemConst": {
+      "chinese_name": "系统常量表",
+      "description": "本表收录数据库中各种常量值的具体分类和常量名称描述"
+    },
+    "ConstantDB.QT_TradingDayNew": {
+      "chinese_name": "交易日表(新)",
+      "description": "本表收录各个市场的交易日信息，包括每个日期是否是交易日，是否周、月、季、年最后一个交易日"
+    },
+    "ConstantDB.LC_AreaCode": {
+      "chinese_name": "国家城市代码表",
+      "description": "本表收录世界所有国家层面的数据信息和我国不同层级行政区域的划分信息"
+    },
+    "InstitutionDB.PS_EventStru": {
+      "chinese_name": "事件体系指引表",
+      "description": "收录聚源最新制定的事件分类体系"
+    },
+    "ConstantDB.US_SecuMain": {
+      "chinese_name": "美股证券主表",
+      "description": "本表收录美国等境外市场单个证券品种的简称、上市交易所等基础信息"
+    },
+    "InstitutionDB.PS_NewsSecurity": {
+      "chinese_name": "证券舆情表",
+      "description": "收录了全网披露的舆情信息涉及的相关证券，对对应的事件信息，并对相应的事件的正负面情感及情感重要性进行等级划分"
+    }
+  }
+}
